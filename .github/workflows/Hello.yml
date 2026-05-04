@@ -13,3 +13,8 @@ jobs:
         run: echo " Hey, There,"
       - name: Greet user
         run: echo " $USER"
+  details:
+    runs-on: ubuntu-latest
+    steps:
+      - name: info about softwares
+        run: docker ps && python --version
