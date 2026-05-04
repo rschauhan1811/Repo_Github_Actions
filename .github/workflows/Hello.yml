@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello to users
-        run: echo" Hey, There,"
+        run: echo " Hey, There,"
       - name: Greet user
         run: echo " $USER"
